@@ -1,0 +1,73 @@
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9 {
+	width: 80px;
+	height: 80px;
+	padding: 10px;
+	border: 1px solid #aaaaaa;
+	float:left;
+}
+body{
+	background-color: #FFFF99;
+	font-family: Verdana;
+}
+
+p, h2{
+	text-align: center;
+}
+
+#bigBox {
+	width: 306px;
+	position: absolute;
+	margin: auto;
+	top: 150px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	}
+	
+/* x's */
+#Xbox{
+	clear: both;
+	width: 80px;
+	height: 80px;
+	border: dashed 1px grey;
+	margin: auto;
+	top: 200px;
+	bottom: 0;
+	left: 1;
+	right: 0;
+	position: absolute;
+}
+
+#x1, #x2, #x3, #x4, #x5 {
+	position: absolute;
+}
+
+/* o's */
+#Obox{
+	clear: both;
+	width: 80px;
+	height: 80px;
+	border: dashed 1px grey;
+	margin: auto;
+	top: 200px;
+	bottom: 0;
+	left: 0;
+	right: 1;
+	position: absolute;
+}
+
+#o1, #o2, #o3, #o4, #o5 {
+	position: absolute;
+}
+
+#again{
+	text-align: center;
+	top: 500px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin: auto;
+}
+
+

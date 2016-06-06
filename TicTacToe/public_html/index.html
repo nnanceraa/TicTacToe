@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="tic-tac-toe.css">
+<script type="text/javascript" src="Tic-Tac-ToeScript.js"></script>
+<title>JavaScript  Drag &amp; Drop Tic-Tac-Toe</title>
+</head>
+<body>
+	<div id="game">
+		<p>
+			Play tic-tac-toe with the animals provided:
+			<br />
+			(Player 1: <b>Ram</b> & Player 2: <b>Dragon</b>)
+		</p>
+			<div id="Xbox">
+				<img id="x1" class="x" src="X.png" draggable="false" hidden="hidden" 
+					ondragstart="drag(event)"  width="75" height="75" />
+				<img id="x2" class="x" src="X.png" draggable="false" hidden="hidden" 
+					ondragstart="drag(event)" width="75" height="75" />
+				<img id="x3" class="x" src="X.png" draggable="false" hidden="hidden" 
+					ondragstart="drag(event)" width="75" height="75" />
+				<img id="x4" class="x" src="X.png" draggable="false" hidden="hidden" 
+					ondragstart="drag(event)"  width="75" height="75" />
+				<img id="x5" class="x" src="X.png" draggable="false" hidden="hidden" 
+					ondragstart="drag(event)" width="75" height="75" />
+			</div>
+			<div id="Obox">
+				<img id="o1" class="o" src="O.png" draggable="false" hidden="hidden" 
+					ondragstart="drag(event)" width="75" height="75" />
+				<img id="o2" class="o" src="O.png" draggable="false" hidden="hidden" 
+					ondragstart="drag(event)" width="75" height="75" />
+				<img id="o3" class="o" src="O.png" draggable="false" hidden="hidden" 
+					ondragstart="drag(event)" width="75" height="75" />
+				<img id="o4" class="o" src="O.png" draggable="false" hidden="hidden" 
+					ondragstart="drag(event)" width="75" height="75" />
+				<img id="o5" class="o" src="O.png" draggable="true"  
+					ondragstart="drag(event)"  width="75" height="75" />
+			</div>	
+			<div id="bigBox">
+					<div id="div1" ondrop="drop(event), toWin(), noDrop(id)" ondragover="allowDrop(event)"></div>
+					<div id="div2" ondrop="drop(event), toWin(), noDrop(id)" ondragover="allowDrop(event)"></div>
+					<div id="div3" ondrop="drop(event), toWin(), noDrop(id)" ondragover="allowDrop(event)"></div>
+					<div id="div4" ondrop="drop(event), toWin(), noDrop(id)" ondragover="allowDrop(event)"></div>
+					<div id="div5" ondrop="drop(event), toWin(), noDrop(id)" ondragover="allowDrop(event)"></div>
+					<div id="div6" ondrop="drop(event), toWin(), noDrop(id)" ondragover="allowDrop(event)"></div>
+					<div id="div7" ondrop="drop(event), toWin(), noDrop(id)" ondragover="allowDrop(event)"></div>
+					<div id="div8" ondrop="drop(event), toWin(), noDrop(id)" ondragover="allowDrop(event)"></div>
+					<div id="div9" ondrop="drop(event), toWin(), noDrop(id)" ondragover="allowDrop(event)"></div> 
+			</div>
+			<div id="again">
+				<a href="http://www.nancytictactoe.co.nf/">Again?</a>
+			</div>
+	</div>	
+</body>
+</html>
